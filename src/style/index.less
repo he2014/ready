@@ -1,0 +1,174 @@
+@import "menu";
+@import "login";
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+#root{
+  height: 100%;
+  tr:hover > td{
+    background:#e6f7ff;
+  }
+}
+
+.ant-layout{
+  height: 100%;
+  .logo{
+    height: 32px;
+    background: #333;
+    border-radius: 6px;
+    margin: 16px;
+  }
+  .ant-layout-sider-collapsed{
+    .anticon{
+      font-size: 16px;
+      margin-left: 8px;
+    }
+    .nav-text{
+      display: none;
+    }
+    .ant-menu-submenu-vertical > .ant-menu-submenu-title:after{
+      display: none;
+    }
+    .ant-menu-dark:not(.ant-menu-inline) .ant-menu-submenu-open {
+      color: inherit;
+    }
+  }
+  p {
+    margin: 10px 0 10px 0;
+  }
+}
+.gutter-example{
+  .ant-row{
+    //margin-left: 0 !important;
+    //margin-right: 0 !important;
+    >div{
+      background: transparent;
+      border: 0;
+    }
+  }
+}
+.gutter-box {
+  padding: 5px 0;
+}
+
+:global {
+  .ant-card-head-title {
+    font-size: 14px !important;
+  }
+}
+.ant-card-wider-padding .ant-card-body{
+  padding: 0px !important;
+  margin-top: 10px;
+  
+}
+.ant-table table{
+  .ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+    // padding: 8px;
+  }
+}
+.search-box{
+  padding: 15px;
+  background-color:#eeeeee;
+  .search-title{
+    display: inline-block;
+    padding: 0 10px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+  }
+  .search-item{
+    display: inline-block;
+    margin:0 10px;
+  }
+  .search-btn:active{
+    background-color: #092136 !important;
+    border-color: #001529 !important;
+    opacity: 0.7;
+  }
+}
+.list-btn{
+  a{
+    margin-right: 20px;
+    color: #00f;
+  }
+  .red{
+    color: #f00;
+  }
+}
+.info-row{
+  height: 40px !important;
+  line-height: 40px;
+  font-size: 14px;
+}
+.info-modal{
+  width: 800px !important;
+  .ant-btn-primary{
+    display: none !important;
+  }
+}
+.edit-modal{
+  width: 600px !important;
+  .ant-modal-footer{
+    display: none !important;
+  }
+}
+.user-header-uploader > .ant-upload {
+  width: 120px;
+  height: 120px;
+  img{
+    width: 120px;
+    height: auto;
+  }
+}
+.pagination-me{
+  float: right;
+  margin-top: 20px !important;
+}
+
+//机器人
+.robot-card{
+  .ant-card-body{
+    margin-top: 0;
+  }
+  .ant-card-grid{
+    width: 140px !important;
+    text-align: center;
+    padding: 10px !important;
+    margin:5px;
+    img{
+      width: 120px;
+      height: auto;
+    }
+  }
+  
+}
+
+.new-btn{
+  background-color: #1890ff !important;
+  border-color: #1890ff !important;
+  margin-left: 15px;
+}
+.search-btn:active{
+  background-color: #1890ff !important;
+  border-color: #1890ff !important;
+  opacity: 0.7;
+}
+.lgAddTitle{
+  font-weight: bold;
+  color: #ff0000;
+  padding: 30px 0 10px 50px;
+}
+.lgAddBtn{
+  text-align: center;
+  button{
+    width: 200px;
+  }
+}
+.list-img{
+  width: 50px;
+  height: auto;
+}
